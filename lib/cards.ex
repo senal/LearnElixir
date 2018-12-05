@@ -22,6 +22,6 @@ defmodule Cards do
   end
   
   def hello() do
-    IO.puts "World"
+    IO.puts "world"
   end
 end
