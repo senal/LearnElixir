@@ -20,4 +20,8 @@ defmodule Cards do
   def deal(deck, hand_size) do 
     Enum.split(deck, hand_size)
   end
+  
+  def hello() do
+    IO.puts "World"
+  end
 end
