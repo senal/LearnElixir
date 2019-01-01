@@ -17,6 +17,10 @@ defmodule Cards do
     Enum.member?(deck, card)
   end
 
+  def hello() do 
+    :world
+  end
+
   def deal(deck, hand_size) do 
     Enum.split(deck, hand_size)
   end
